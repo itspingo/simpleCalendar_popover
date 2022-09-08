@@ -1,0 +1,24 @@
+table {
+    width:100%;   
+    table-layout: fixed;
+}
+th {
+    text-align: center;
+}
+td {
+    height:100px; 
+    /*width: 100px;   */
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+.divdata {
+    background-color: whitesmoke;
+    min-height: 100px;
+}
+.divNoData {
+    /* background-color: rgb(236, 233, 233); */
+    min-height: 123px;
+}
